@@ -301,7 +301,7 @@ footer p{
 }
 
 /* MODAL WINDOW */
-/* .modal{
+ .modal{
     background-image: url('/images/coolblue.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -383,4 +383,4 @@ flex-direction: column;
 .hidden{
     visibility: hidden;
     opacity: 0;
-} */
+} 
