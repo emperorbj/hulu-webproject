@@ -1,18 +1,12 @@
-// function changetTemp(value){
-//     calc = value + 273;
-//     return `The kelvin value is ${calc}`
-// }
-// console.log(changetTemp(34))
-
 
 // making a smooth scroll
-// document.querySelector('.nav--links').addEventListener('click', function(e){
-//     e.preventDefault()
-//     if(e.target.classList.contains('nav--link')){
-//         const id = e.target.getAttribute('href')
-//         document.querySelector(id).scrollIntoView({behaviour:'smooth'})
-//     }
-// })
+document.querySelector('.nav--links').addEventListener('click', function(e){
+     e.preventDefault()
+     if(e.target.classList.contains('nav--link')){
+         const id = e.target.getAttribute('href')
+        document.querySelector(id).scrollIntoView({behaviour:'smooth'})
+    }
+ })
 
 // MODAL WINDOW ACTIONS
 // const openBtn = document.querySelectorAll('.btn--show--modal')
